@@ -1,0 +1,188 @@
+@font-face { font-family: 'AdamCG'; src: url('../resources/adamcg.otf'); }
+
+img {
+  height:"80%";
+  width:"80%";
+}
+
+a {
+  text-decoration: none !important;
+  color: #ff4911;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a32904;/*#00e5ee*/
+
+}
+
+p {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+body {
+  font-family: Lato;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#GraphicsContainer {
+  margin-top: -200px;
+  min-width: 100vw;
+}
+
+
+#spotlight {
+  margin-top: 0px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  margin-right: auto;
+  max-height: 50vh;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+#mono {
+  font-family: Lato;
+  font-size: 90px;
+  font-weight: 300;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.subtitle {
+  padding-top: 5%;
+  display: inline;
+  text-align: center;
+}
+
+.link {
+  font-size: 25px;
+  font-weight: 400;
+  color: #141414;
+  transition: .4s ease;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #ff4911;
+}
+
+.active {
+  color: #ff4911;
+}
+
+.del {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa {
+  padding: 32px 20px 10px 20px;
+  font-size: 32px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-github {
+  color: #141414;
+}
+
+.fa:hover {
+  color: #141414;
+  opacity: 0.5;
+}
+
+.frame {
+  max-height: 100vh;
+
+}
+
+.bio-title {
+  line-height: 3.5rem;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.bio-sub {
+  line-height: 1.9rem;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.nav-bar {
+  padding: 50px 0px 50px 0px;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: #141414;
+}
+
+.grey {
+  padding: 100px 0px 100px 0px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: #c2eeff;
+}
+
+.navbar {
+  padding: 35px 80px 80px 100px;
+}
+
+.font35 {
+  font-size: 35px;
+}
+
+.font30 {
+  font-size: 30px;
+}
+
+.buffer {
+  padding-bottom: 80px;
+}
+
+.uni-title {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.uni-class {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.section {
+  padding-bottom: 50px;
+  border-bottom: solid;
+  border-width: thin;
+}
+
+.sec-header {
+  padding-top: 50px;
+}
+
+.edu-text {
+  font-size: 17px;
+  font-weight: 300;
+}
